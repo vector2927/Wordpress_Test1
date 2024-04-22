@@ -1,0 +1,191 @@
+<?php
+/*
+Template Name: Test_template_contact_form
+*/
+get_template_part('parts/header');
+?>
+
+    <main class="main main--blog">
+      <div class="main-inner">
+        <div class="contact-form">
+          <h1 class="contact-title-main">お問い合せ</h1>
+          <div id="mw_wp_form_mw-wp-form-291" class="mw_wp_form mw_wp_form_input">
+            <div class="wpcf7 js" id="wpcf7-f1024-o1" lang="ja" dir="ltr">
+              <div class="screen-reader-response">
+                <p role="status" aria-live="polite" aria-atomic="true"></p>
+                <ul></ul>
+              </div>
+              <form action="#" method="post" class="wpcf7-form init" aria-label="コンタクトフォーム" novalidate="novalidate" data-status="init">
+                <div style="display: none">
+                  <input type="hidden" name="_wpcf7" value="1024" />
+                  <input type="hidden" name="_wpcf7_version" value="5.8.2" />
+                  <input type="hidden" name="_wpcf7_locale" value="ja" />
+                  <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1024-o1" />
+                  <input type="hidden" name="_wpcf7_container_post" value="0" />
+                  <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+                </div>
+                <ul class="contact-formList">
+                  <li class="contact-formList__item">
+                    <p class="contact-formList__title">お名前<span class="required">必須</span></p>
+                    <div class="contact-formList__data">
+                      <span class="wpcf7-form-control-wrap" data-name="q_name"
+                        ><input
+                          size="60"
+                          class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                          aria-required="true"
+                          aria-invalid="false"
+                          placeholder="田中太郎"
+                          value=""
+                          type="text"
+                          name="q_name"
+                      /></span>
+                    </div>
+                  </li>
+                  <li class="contact-formList__item">
+                    <p class="contact-formList__title">メールアドレス<span class="required">必須</span></p>
+                    <div class="contact-formList__data">
+                      <div class="awesomplete" style="width: 100%">
+                        <span class="wpcf7-form-control-wrap" data-name="q_mail"
+                          ><input
+                            size="60"
+                            class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
+                            autocomplete="off"
+                            aria-required="true"
+                            aria-invalid="false"
+                            placeholder="abc@coosy.com(半角で入力してください)"
+                            value=""
+                            type="email"
+                            name="q_mail"
+                        /></span>
+                        <ul hidden=""></ul>
+                        <span class="visually-hidden" role="status" aria-live="assertive" aria-relevant="additions"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="contact-formList__item">
+                    <p class="contact-formList__title">問い合わせ種別</p>
+                    <div class="contact-formList__data">
+                      <div class="contact-formList__inputs inputs_middle">
+                        <span class="wpcf7-form-control-wrap" data-name="q_category">
+                          <span class="wpcf7-form-control wpcf7-checkbox">
+                            <span class="wpcf7-list-item first">
+                              <label>
+                                <input type="checkbox" name="q_category[]" value="Webサービス新規立ち上げ" />
+                                <span class="wpcf7-list-item-label">Webサービス新規立ち上げ</span>
+                              </label>
+                            </span>
+                            <span class="wpcf7-list-item">
+                              <label>
+                                <input type="checkbox" name="q_category[]" value="Webサイトリニューアル" />
+                                <span class="wpcf7-list-item-label">Webサイトリニューアル</span>
+                              </label>
+                            </span>
+                            <span class="wpcf7-list-item">
+                              <label>
+                                <input type="checkbox" name="q_category[]" value="デザイン・ブランディング" />
+                                <span class="wpcf7-list-item-label">デザイン・ブランディング</span>
+                              </label>
+                            </span>
+                            <span class="wpcf7-list-item">
+                              <label>
+                                <input type="checkbox" name="q_category[]" value="ECサイト構築" />
+                                <span class="wpcf7-list-item-label">ECサイト構築</span>
+                              </label>
+                            </span>
+                            <span class="wpcf7-list-item">
+                              <label>
+                                <input type="checkbox" name="q_category[]" value="自社でのコンテンツ更新（CMS）" />
+                                <span class="wpcf7-list-item-label">自社でのコンテンツ更新（CMS）</span>
+                              </label>
+                            </span>
+                            <span class="wpcf7-list-item">
+                              <label>
+                                <input type="checkbox" name="q_category[]" value="Webサイト流入増加（SEO）" />
+                                <span class="wpcf7-list-item-label">Webサイト流入増加（SEO）</span>
+                              </label>
+                            </span>
+                            <span class="wpcf7-list-item">
+                              <label>
+                                <input type="checkbox" name="q_category[]" value="Web広告（リスティング、SNS）" />
+                                <span class="wpcf7-list-item-label">Web広告（リスティング、SNS）</span>
+                              </label>
+                            </span>
+                            <span class="wpcf7-list-item">
+                              <label>
+                                <input type="checkbox" name="q_category[]" value="システム開発" />
+                                <span class="wpcf7-list-item-label">システム開発</span>
+                              </label>
+                            </span>
+                            <span class="wpcf7-list-item">
+                              <label>
+                                <input type="checkbox" name="q_category[]" value="スマートフォンアプリ開発" />
+                                <span class="wpcf7-list-item-label">スマートフォンアプリ開発</span>
+                              </label>
+                            </span>
+                            <span class="wpcf7-list-item last">
+                              <label>
+                                <input type="checkbox" name="q_category[]" value="その他" />
+                                <span class="wpcf7-list-item-label">その他</span>
+                              </label>
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="contact-formList__item">
+                    <p class="contact-formList__title">お問い合わせ・<br class="style-pc" />ご相談内容<span class="required">必須</span></p>
+                    <div class="contact-formList__data">
+                      <span class="wpcf7-form-control-wrap" data-name="q_details">
+                        <textarea
+                          cols="50"
+                          rows="7"
+                          class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
+                          aria-required="true"
+                          aria-invalid="false"
+                          placeholder="お問合せ・ご相談内容などをご記載ください。"
+                          name="q_details"></textarea>
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+                <div class="contact-formBtnArea">
+                  <div class="btn-inquiry__submit project">
+                    <input class="wpcf7-form-control wpcf7-submit has-spinner btn-inquiry__submit--in" type="submit" value="確認する" /><span class="wpcf7-spinner"></span>
+                    <input type="hidden" name="_cf7msm_multistep_tag" class="wpcf7-form-control wpcf7-multistep cf7msm-multistep" value='{"first_step":1,"next_url":"\/contact\/confirm"}' /><input
+                      type="hidden"
+                      name="cf7msm-no-ss"
+                      value="" />
+                  </div>
+                </div>
+                <div class="wpcf7-response-output" aria-hidden="true"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="footer-pathNav">
+      <p class="footer-pathNav__spHome">
+        <a href="#"><span>ホーム</span></a>
+      </p>
+      <ul class="footer-pathNavList" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+        <li class="footer-pathNavList__item footer-pathNavList__item--home" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+          <a href="/" itemprop="item"><span itemprop="name">ホーム</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <li class="footer-pathNavList__item" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+          <span itemprop="name">お問い合せ</span>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ul>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-sns">
+        <p class="footer-sns__title">Footer</p>
+      </div>
+    </footer>
+  </body>
+</html>

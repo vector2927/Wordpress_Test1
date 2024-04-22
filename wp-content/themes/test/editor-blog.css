@@ -1,0 +1,163 @@
+div[data-type="lazyblock/list"] ul,
+div[data-type="lazyblock/list"] ol {
+  border: 3px dotted #edeadf;
+  background: #fbfaf8;
+}
+div[data-type="lazyblock/list"] ul a,
+div[data-type="lazyblock/list"] ol a {
+  color: #000;
+  text-decoration: none !important;
+}
+@media screen and (min-width: 768px) {
+  div[data-type="lazyblock/list"] ul,
+  div[data-type="lazyblock/list"] ol {
+    font-size: 15px;
+    margin-top: 18px;
+    padding: 17px 30px 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  div[data-type="lazyblock/list"] ul,
+  div[data-type="lazyblock/list"] ol {
+    font-size: 13px;
+    margin-top: 40px;
+    padding: 17px 20px 18px;
+  }
+}
+div[data-type="lazyblock/list"] ul > li,
+div[data-type="lazyblock/list"] ol > li {
+  position: relative;
+  padding: 0 0 0 25px;
+  color: #333;
+  word-break: break-all;
+}
+@media screen and (min-width: 768px) {
+  div[data-type="lazyblock/list"] ul > li:not(:first-child),
+  div[data-type="lazyblock/list"] ol > li:not(:first-child) {
+    margin-top: 7px;
+  }
+}
+@media screen and (max-width: 767px) {
+  div[data-type="lazyblock/list"] ul > li:not(:first-child),
+  div[data-type="lazyblock/list"] ol > li:not(:first-child) {
+    margin-top: 11px;
+  }
+}
+div[data-type="lazyblock/list"] ul > li:before,
+div[data-type="lazyblock/list"] ol > li:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+div[data-type="lazyblock/list"] ul > li::marker,
+div[data-type="lazyblock/list"] ol > li::marker {
+  content: none !important;
+}
+div[data-type="lazyblock/list"] ul > li > a,
+div[data-type="lazyblock/list"] ol > li > a {
+  font-family: "Noto Sans Bold";
+}
+div[data-type="lazyblock/list"] ul.bgNone,
+div[data-type="lazyblock/list"] ol.bgNone {
+  background: none;
+  padding: 0;
+  border: none;
+}
+div[data-type="lazyblock/list"] ul > li:before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  min-width: 6px;
+  height: 6px;
+  margin: 0.75rem 8px 0 0;
+  border-radius: 50%;
+  background: #333;
+}
+div[data-type="lazyblock/list"] ul > li::marker {
+  content: none !important;
+}
+div[data-type="lazyblock/list"] ol > li:before {
+  white-space: nowrap;
+  font-family: "Noto Sans Bold";
+}
+@media screen and (min-width: 768px) {
+  div[data-type="lazyblock/list"] ol > li:before {
+    width: auto;
+    margin-right: 8px;
+  }
+}
+@media screen and (max-width: 767px) {
+  div[data-type="lazyblock/list"] ol > li:before {
+    width: auto;
+    margin-right: 8px;
+  }
+}
+div[data-type="lazyblock/list"] ol > li::marker {
+  content: none !important;
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(1):before {
+  content: "1.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(2):before {
+  content: "2.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(3):before {
+  content: "3.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(4):before {
+  content: "4.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(5):before {
+  content: "5.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(6):before {
+  content: "6.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(7):before {
+  content: "7.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(8):before {
+  content: "8.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(9):before {
+  content: "9.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(10):before {
+  content: "10.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(11):before {
+  content: "11.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(12):before {
+  content: "12.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(13):before {
+  content: "13.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(14):before {
+  content: "14.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(15):before {
+  content: "15.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(16):before {
+  content: "16.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(17):before {
+  content: "17.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(18):before {
+  content: "18.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(19):before {
+  content: "19.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(20):before {
+  content: "20.";
+}
+div[data-type="lazyblock/list"] ol > li:nth-child(21):before {
+  content: "21.";
+}
+div[data-type="lazyblock/list"] ol > li a {
+  text-decoration: underline;
+}
